@@ -1,0 +1,20 @@
+The external style sheet is generally used when you want to make changes in multiple pages. It is ideal for this condition because it facilitates you to change look of the entire web site by changing just one file.
+
+It uses the <link> tag on every page and the tag should be put inside the head section.
+
+For eg
+<head>
+<link rel="stylesheet" type ="test/css" href=" my.css">
+</head>
+
+.css extension is must to save any css file.
+
+my.css 
+
+body{
+background-color:black;
+}
+h2{
+coolor: blue;
+margin-left:5px;
+}
