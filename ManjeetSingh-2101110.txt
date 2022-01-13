@@ -1,0 +1,61 @@
+1.user form
+
+<!DOCTYPE html>
+<html>
+<head><title>form</title></head>
+<body>
+
+    <form action="#">
+<label for="name">
+Name:
+</label>
+<input type ="text" name="name" id="name" placeholder="Username"><br>
+
+<label for="doc">
+    Password:
+    </label>
+    <input type="password" id="pwd" name="pwd"><br>
+    <label for="num">
+        Date of Birth:
+        </label>
+        <input type ="date" name="Date of birth" id="dob"><br>
+
+<label for="email">
+Email:
+</label>
+<input type ="email" name="email" id="email" placeholder="Email"><br>
+
+
+<br>
+<button type="submit" value="submit">Submit</button> 
+</form>
+</body>
+</html>
+
+
+2.use of external css:-
+
+The external style sheet is generally used when you want to make changes on multiple pages. It is ideal for this condition because it facilitates you to change the look of the entire web site by changing just one file.
+
+It uses the <link> tag on every pages and the <link> tag should be put inside the head section.
+
+Example:
+
+<head>  
+<link rel="stylesheet" type="text/css" href="mystyle.css">  
+</head>  
+The external style sheet may be written in any text editor but must be saved with a .css extension. This file should not contain HTML elements.
+
+
+
+I am taking an example of a style sheet file named "mystyle.css".
+
+File: mystyle.css
+
+body {  
+    background-color: lightblue;  
+}  
+h1 {  
+    color: navy;  
+    margin-left: 20px;  
+}   
