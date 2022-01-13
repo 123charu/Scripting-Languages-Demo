@@ -1,0 +1,46 @@
+//answer 1
+<!doctype html>
+<html>
+<head>
+<title>student registration form</title>
+<style>
+</style>
+</head>
+<body>
+<div>
+<form method="get">
+//answer1
+<div class="container">
+<label for="uname"><b>USERNAME</b></label>
+<input type="text" placeholder="ENTER USERNAME" name="uname" required>
+<br>
+<label for= "psw"><b>PASSWORD</b></label>
+<input type="password" placeholder="enter password" name="psw" required>
+<br>
+<label for="email"><b>EMAIL</b></label>
+<input type="email" placeholder="ENTER EMAILID" name="email" required>
+<br>
+<label for="db"><b>DATE OF BIRTH</b></label>
+<input type="date" placeholder="enter DOB" name="db" required>
+<br>
+<button type="submit">LOGIN</button>
+</label>
+</div>
+</form>
+</div>
+</body>
+</html>
+
+
+
+//
+answer 2
+The external style sheet is generally used when you want to make changes on multiple pages. It is ideal for this condition because it facilitates you to change the look of the entire web site by changing just one file.
+
+It uses the <link> tag on every pages and the <link> tag should be put inside the head section.
+
+Example:
+
+<head>  
+<link rel="stylesheet" type="text/css" href="mystyle.css">  
+</head>
