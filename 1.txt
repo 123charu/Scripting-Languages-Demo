@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+       
+        form{
+            text-align: center;
+            padding: 160px;
+            font-size: 26px;
+            
+        }
+        form input{
+            padding-bottom: 6px;
+            margin: 12px;
+            width: 32%;
+        }
+        form button{
+            width: 24%;
+        }
+    </style>
+</head>
+<body>
+  
+      
+   
+  <form action="stu_detail.html">
+    <h1>Login page</h1>
+    <fieldset>
+    Enter your user id  : <br><input type="text"><br>
+    Enter your password :<br><input type="password"><br>
+    <!-- <button onclick="windows.location.herf=stu_detail.html> Login</button> -->
+    <button> Login</button>
+    <br>
+    <input type="text"><br>
+              Email :
+        <input type="email"><br>
+        <label for="D.O.B">Date of Birth:</label>
+        <input type="date"id="Birthday"name="Birthday"><br>
+</fieldset>
+</form>
+   
+</body>
+</html>
