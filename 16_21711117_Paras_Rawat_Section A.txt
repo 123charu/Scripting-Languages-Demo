@@ -1,0 +1,26 @@
+Ans1> <!DOCTYPE html>
+<html>
+<body>
+<h3>STUDENT REGISTRATION</h3>
+<form method="post"action="forms2.html">
+<label> Username </label>         
+  <input type="text" name="firstname" size="15"/> <br> <br>  
+  <br>   
+ <label>Date of Birth</label>
+<input type="date" name="birthday"> 
+<br><br>
+Email Id:  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>  
+Password:  
+<input type="Password" id="pass" name="pass"> <br>   
+<br> <br>  
+<input type="submit"value="Login"><br>
+</form>  
+</body>  
+</html>  
+
+
+Ans2> 
+The external style sheet is generally used when you want to make changes on multiple pages, in a webpage.It makes the editing simple and easy,
+ because it facilitates you to change the look of the entire web site by changing just one file. 
