@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+  </head>
+  <body>
+<h1>Login Form</h1>
+    <form>
+             <label>Username : </label><br>
+             <input type="text" placeholder="Enter Username"  required><br>
+             <label>Password : </label><br>
+             <input type="password" placeholder="Enter Password"  required><br>
+             label>DOB: </label><br>
+             <input type="date" placeholder=""  required><br>
+             label>Email </label><br>
+             <input type="email" placeholder="Enter email"  required><br>
+             <button type="submit">Login</button><br>
+             <button type="button" class="cancelbtn"> Cancel</button>
+             
+     </form>
+  </body>
+</html>
